@@ -1,0 +1,15 @@
+[safe]
+	directory = /home/haikal/project-blog/blog-haikal
+	directory = /home/haikal/p/project-blog/blog-haikal
+	directory = /home/haikal/p/f/next/project-blog/blog-haikal
+	directory = /home/haikal/p/f/next/project-blog/blog-mdx
+	directory = /home/haikal/p/f/next/project-blog/blog-typescript
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	email = farhienzahaikal@gmail.com
+	name = Farhienza Haikal

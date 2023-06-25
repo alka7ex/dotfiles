@@ -1,0 +1,7 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+refine.new	0	0	1686794069	31536000
+refine-connect-bucket.fra1.cdn.digitaloceanspaces.com	0	1	1686794071	15552000
+github.com	0	1	1686476111	31536000
+get.chezmoi.io	0	0	1687732609	31556952

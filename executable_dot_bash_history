@@ -1,0 +1,1703 @@
+sudo pacman -Syu
+cd ..
+cd
+exit
+chmod -R 777 /home/haikal/
+sudo chmod -R 777 /home/haikal/
+su
+clear
+flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo --user
+ls
+clear
+flatpak install -y $(< flatpaks.txt)
+nano .local/bin/podman-host
+mkdir .local/bin/
+nano .local/bin/podman-host
+nvm install --lts
+curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sudo sh
+clear
+distrobox create -i archlinux
+distrobox enter archlinux archlinux 
+distrobox create -i fedora:38 -n fedora
+distrobox enter fedora 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+git
+clear
+sudo dnf install gh
+terminal
+sudo dnf update
+sudo dnf install gh
+sudo dnf update
+exit
+sudo dnf update
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+nvm install --lts
+clear
+clea
+clear
+cd project-blog/
+cd blog-haikal/
+clear
+git
+sudo dnf install git
+exit
+distrobox enter fedora 
+clear
+distrobox rm fedora 
+
+distrobox rm fedora 
+clear
+distrobox create -i fedora:38 -n Fedora-Container
+distrobox rm Fedora-Container 
+distrobox create -i fedora:38 -n fedora-container
+distrobox enter fedora-container 
+nano .local/bin/podman-host
+chmod +x ~/.local/bin/podman-host
+nano ${HOME}/.var/app/com.visualstudio.code/config/Code/User/globalStorage/ms-vscode-remote.remote-containers/nameConfigs/fedora-container.json
+mkdir ${HOME}/.var/app/com.visualstudio.code/config/Code/User/globalStorage/ms-vscode-remote.remote-containers/nameConfigs/
+nano ${HOME}/.var/app/com.visualstudio.code/config/Code/User/globalStorage/ms-vscode-remote.remote-containers/nameConfigs/fedora-container.json
+sudo dnf install timeshift
+sudo dnf install google-chrome
+sudo dnf install google-chrome-stable
+dnf history userinstalled
+cd /usr/share/themes/
+ls
+clear
+ls
+sudo cp -r Adwaita-dark/ /home/haikal/.themes/
+sudo flatpak override --filesystem=$HOME/.themes
+sudo flatpak override --env=GTK_THEME=Adawita-dark
+sudo dnf install timeshift timeshift-autosnap-dnf grub-btrfs
+sh -c "$(curl -sL https://nextdns.io/install)"
+nextdns start
+cd /mnt/
+ls
+mkdir /btrfs_pool
+sudo mkdir /btrfs_pool
+ls
+clear
+[200~findmnt -no FSTYPE /home~
+findmnt -no FSTYPE /home
+clear
+findmnt -no FSTYPE /home
+sudo btrfs subvolume list
+sudo dnf remove firefox
+sudo flatpak override --filesystem=$HOME/.themes
+sudo flatpak override --env=GTK_THEME=Adawita-dark
+sudo flatpak override --filesystem=$HOME/.themes
+sudo flatpak override --env=GTK_THEME=Adawita-dark
+clear
+sudo dnf install gnome-tweaks
+sudo flatpak override --filesystem=$HOME/.themes
+sudo flatpak override --env=GTK_THEME=Adawita-dark
+sudo flatpak override --env=GTK_THEME=Adwaita-dark
+snapper
+sudo snapper list
+g
+gh
+mkdir .local/bin
+nano .local/bin/podman-host
+chmod +x ~/.local/bin/podman-host
+mkdir ${HOME}/.var/app/com.visualstudio.code/config/Code/User/globalStorage/ms-vscode-remote.remote-containers/nameConfigs/
+nano ${HOME}/.var/app/com.visualstudio.code/config/Code/User/globalStorage/ms-vscode-remote.remote-containers/nameConfigs/fedora-container.json
+git
+git
+cd project-blog/
+ls
+cd blog-haikal/
+ls
+clear
+gh
+gh auth
+gh auth login
+clear
+gh
+clear
+git comit
+git commit
+git
+clear
+[200~  git config --global user.email "you@example.com"
+~
+git config --global user.email "farhienzahaikal@gmail.com"
+git config --global user.name "Farhienza Haikal"
+git branch
+git checkout
+git checkout -b
+git checkout -b development
+git push
+git commit
+npm i markdown-to-jsx
+clear
+npm
+exit
+clear
+sudo apt update -y && sudo apt upgrade -y
+clear
+rm -rf droidcam/
+mkdir droidcam-ubuntu
+cd droidcam-ubuntu/
+clear
+wget -O droidcam_latest.zip https://files.dev47apps.net/linux/droidcam_2.0.0.zip
+unzip droidcam_latest.zip -d droidcam
+sudo apt install unzip
+unzip droidcam_latest.zip -d droidcam
+cd droidcam && sudo ./install-client
+sudo apt install libappindicator3-1
+linux-headers-`uname -r` gcc make
+sudo apt install linux-headers-`uname -r` gcc make
+sudo apt install gcc make
+sudo ./install-video
+droidcam
+clear
+sudo ./install-video
+droidcam
+sudo apt search libappindicator
+sudo apt search libappindicator3-1
+sudo apt install sudo apt search libappindicator3-1
+sudo apt install libappindicator3-1
+sudo apt install libappindicator
+sudo apt install libappindicator-dev
+droidcam
+exit
+distrobox create -i ubuntu:22.04 -n ubuntu
+distrobox enter ubuntu
+mkdir /home/haikal/.config/obs-studio/plugins
+clear
+cp -R droidcam-obs/ /home/haikal/.config/obs-studio/plugins/
+sudo dnf install -y v4l2loopback-dkms
+sudo dnf install kernel-devel
+sudo dnf install akmod-v4l2loopback
+sudo dnf install https://admin.rpmfusion.org/pkgdb/package/free/v4l2loopback/
+cd Downloads/
+clear
+sudo dnf install ./v4l2loopback-0.12.7^20230503g2c9b670-1.fc38.x86_64.rpm 
+clear
+https://github.com/umlaeute/v4l2loopback.git
+git clone https://github.com/umlaeute/v4l2loopback.git
+cd v4l2loopback/
+ls
+clear
+make
+make clean
+make && sudo make install
+sudo depmod -a
+modprobe v4l2loopback
+sudo modprobe v4l2loopback
+clear
+dnf history userinstalled 
+snapper
+snapper list
+clear
+sudo snapper list
+cd Downloads/
+ls
+sudo dpkg -i iriunwebcam-2.8
+cd
+wget https://iriun.gitlab.io/iriunwebcam-2.8.deb
+sudo dpkg -i iriunwebcam-2.8
+sudo apt install ./iriunwebcam-2.8.deb 
+npm
+clear
+nvm
+npm
+clar
+clear
+sudo dnf install firefox
+npm run dev
+npm run build
+[A
+npm run build
+npm run start
+clear
+rm -rf .next/ node_modules/
+clear
+npm i
+npm build
+npm run build
+cd ..
+vim
+clear
+vi
+vim
+clear
+exit
+t
+clear
+exit
+:q
+exit
+sudo snapper list
+sudo dnf update
+sudo snapper list
+htop
+sudo dnf install htop
+htop
+sudo snapper -h
+sudo snapper list
+sudo snapper rollback 7
+sudo snapper --ambit classic rollback 7
+reboot
+zram
+clear
+sudo systemctl list
+sudo systemctl status
+sudo systemctl status  swap-create@zram0
+sudo dnf history userinstall
+dnf history userinstalled
+sudo dnf remove timeshift-22.11.2-1.fc38.x86_64
+cleaar
+clear
+sudo snapper list
+#1686637976
+adf
+#1686638154
+cd blog-project/
+#1686638165
+cd
+#1686638169
+cd project-blog/blog-haikal/
+#1686638176
+npm run dev
+#1686638285
+sudo dnf install bash-completion
+#1686638327
+clear 
+#1686638374
+next dev
+#1686638377
+npm run dev
+#1686638398
+cd ..
+#1686638411
+chmod -R 777 blog-haikal/
+#1686638417
+sudo chmod -R 777 blog-haikal/
+#1686638422
+cd blog-haikal/
+#1686638422
+cd blog-haikal/
+#1686650588
+import React from 'react'
+#1686650590
+import axios from 'axios'
+#1686650591
+import {
+#1686650591
+} from '@tanstack/react-query'
+#1686650591
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+#1686650593
+const queryClient = new QueryClient()
+#1686650593
+export default function App() {
+#1686650593
+async function fetchProjects(page = 0) {
+#1686650593
+}
+#1686650593
+function Example() {
+  const queryClient = useQueryClient()
+#1686650612
+npm install axios
+#1686638427
+npm run dev
+#1686651912
+npm list
+#1686658227
+cd project-blog/blog-haikal/
+#1686658230
+npm run dev
+#1686658236
+npm
+#1686658251
+nvm install --lts
+#1686658271
+[200~curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+#1686658272
+~
+#1686658274
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+#1686658277
+nvm
+#1686658292
+ckear
+#1686658298
+clear 
+#1686658300
+npm
+#1686658301
+nvm
+#1686658330
+cd project-blog/blog-haikal/
+#1686658332
+npm run dev
+#1686673614
+clera
+#1686673617
+npm list
+#1686673660
+npm install @etchteam/next-pagination
+#1686673730
+npm list
+#1686675081
+htop
+#1686674242
+npm run dev
+#1686675310
+htop
+#1686675800
+cd project-blog/blog-haikal/
+#1686675803
+npm run dev
+#1686745875
+hto
+#1686745880
+sudo dnf instlal htop && htop
+#1686745890
+sudo dnf install htop && htop
+#1686746147
+cd project-blog/blog-haikal/
+#1686746455
+sudo dnf install neovim
+#1686746463
+nvim
+#1686746603
+sudo dnf install neovim
+#1686748050
+cd project-blog/blog-haikal/
+#1686748053
+npm run dev
+#1686748413
+npm run clean
+#1686748416
+npm run dev
+#1686748789
+npm run clean
+#1686749452
+htop
+#1686748791
+npm run dev
+#1686754625
+htop
+#1686754911
+npm run dev
+#1686754979
+lsof -i :8080 -t
+#1686754983
+lsof -i :3000 -t
+#1686754998
+kill -9 3000
+#1686755007
+kill -9 172505
+#1686750240
+npm run clean && npm run dev
+#1686755019
+cd project-blog/blog-haikal/
+#1686755029
+npm run dev
+#1686745898
+sudo dnf install htop -y && htop
+#1686755185
+htop
+#1686792784
+https://refine.new/api/.refine/d/m1cHRKTkcw3MQKm
+#1686792799
+cd Downloads/
+#1686792809
+cp refine-project.zip ..
+#1686792872
+unzip ref
+#1686792875
+unzip refine-project.zip 
+#1686792883
+cd.. 
+#1686792885
+cd ..
+#1686792952
+cd
+#1686792954
+cd refine-project/
+#1686792963
+npm i && npm run dev
+#1686793338
+sudo chown -R 1000:1000 "/home/haikal/.npm
+#1686793342
+sudo chown -R 1000:1000 "/home/haikal/.npm"
+#1686793344
+npm i && npm run dev
+#1686793944
+cd ..
+#1686793946
+cd project-blog/
+#1686793952
+cd blog-haikal/
+#1686793957
+npm run dev
+#1686794054
+cd ..
+#1686794068
+wget https://refine.new/api/.refine/d/tW8xHSHpNZqqjrJ
+#1686794092
+mkdir refine-strapi
+#1686794105
+mv tW8xHSHpNZqqjrJ refine-strapi/
+#1686794110
+cd refine-strapi/
+#1686794160
+clera
+#1686794165
+npm i && npm run dev
+#1686800130
+npm run dev
+#1686800175
+cd project-blog/blog-haikal/
+#1686800187
+npm run refine update
+#1686800198
+npm run
+#1686800149
+npm run refine update
+#1686800239
+npn run update
+#1686800243
+npm run update
+#1686800301
+npm audit
+#1686800310
+npm run dev
+#1686800403
+npm run de
+#1686800405
+npm run dev
+#1686802456
+next build
+#1686802463
+npm run build
+#1686802505
+npm run start
+#1686806326
+npm run dev
+#1686812790
+htop
+#1686865733
+gsettings set "org.gnome.desktop.wm.keybindings" "switch-to-workspace-5" "['<alt>5']" 
+#1686865788
+gsettings set "org.gnome.desktop.wm.keybindings" "move-to-workspace-5" "['<Super>5']" 
+#1686865859
+sudo dnf install Gdu
+#1686865946
+sudo dnf remove htop && sudo dnf install btop
+#1686865967
+btop
+#1686866051
+sudo dnf remove htop -y sudo dnf install btop -y && sudo dnf install fzf
+#1686866064
+sudo dnf remove htop -y && sudo dnf install btop -y && sudo dnf install fzf
+#1686866130
+npm install -g tldr
+#1686866129
+npm install -g tldr
+#1686866226
+sudo dnf install terminator
+#1686866150
+tldr btop
+#1686866155
+tldr unzip
+#1686866630
+fzf
+#1686866644
+sudo dnf install fzf
+#1686866636
+fzf
+#1686866677
+y
+#1686866746
+sudo dnf install zoxide -y
+#1686866747
+sudo dnf install zoxide -y
+#1686866759
+z
+#1686866772
+z project-blog/
+#1686866790
+eval "$(zoxide init bash)"
+#1686866792
+eval "$(zoxide init bash)"
+#1686866812
+nano .bashrc
+#1686866835
+z
+#1686866847
+z
+#1686866849
+z project-blog/
+#1686866856
+z
+#1686866891
+z project-blog/blog-haikal/
+#1686866923
+sudo dnf install exa
+#1686866947
+exa
+#1686866990
+exa tldr
+#1686866995
+tldr
+#1686867000
+tldr exa
+#1686867012
+exa long
+#1686867017
+exa --long
+#1686867033
+exa -tree
+#1686867036
+exa --tree
+#1686867099
+exa
+#1686867112
+z project-blog/blog-haikal/
+#1686867116
+z
+#1686867119
+cd
+#1686867122
+z
+#1686867171
+alias cd=z
+#1686867181
+cd project-blog/blog-haikal/
+#1686867182
+cd
+#1686867189
+cd project-blog/blog-haikal/
+#1686867092
+exa --long --tree
+#1686867316
+exa
+#1686867323
+tldr exa
+#1686867329
+exa --tree
+#1686867333
+ls -tree
+#1686867341
+tldr ls
+#1686867352
+ls -t
+#1686894234
+cd project-blog/blog-haikal/
+#1686894240
+npm run dev --turbo
+#1686899414
+npm run clean
+#1686899417
+npm run dev --turbo
+#1686904080
+cler
+#1686904082
+btop
+#1686904127
+npm run build
+#1686904250
+npm run start
+#1686905301
+npm run build && npm run start
+#1686919706
+btop
+#1686916898
+npm run dev
+#1686936361
+npm run build && npm run start
+#1686936644
+npm run dev
+#1686964314
+npm run build && npm run start
+#1686991600
+lsof -i :3000 -t
+#1686991609
+kill -9 676432
+#1686964684
+npm run dev
+#1686991626
+cd project-blog/blog-haikal/
+#1686991643
+cloudflared
+#1686991716
+cd Downloads/
+#1686991721
+fzf cloudflared-linux-x86_64.rpm 
+#1686991737
+sudo dnf install cloudflared-linux-x86_64.rpm 
+#1686991775
+cd 
+#1686991786
+tldr cloudflared
+#1686991824
+cloudflared tunnel --hostname https//:localhost:3000
+#1686991832
+cloudflared tunnels --hostname https//:localhost:3000
+#1686991858
+cloudflared tunnel --url https//:localhost:3000
+#1686991972
+cloudflared tunnel --url http//:localhost:3000
+#1686992012
+cloudflared tunnel --url http://localhost:3000
+#1686992884
+cd project-blog/blog-haikal/
+#1686992889
+npm run dev
+#1686994636
+npm run dev --turbo
+#1686994686
+npm install turbo --global
+#1686994782
+turbo build init
+#1686994792
+turbo build lint
+#1686994830
+turbo dev
+#1686994943
+npm run dev
+#1686994953
+npm run dev --turbo
+#1687020116
+clera
+#1687020119
+npm run dev
+#1687020128
+npm run clean
+#1687020131
+npm run dev
+#1687074455
+npm run build && npm run start
+#1687020492
+btop
+#1687092173
+cd project-blog/blog-haikal/
+#1687092179
+ptop
+#1687075555
+npm run dev
+#1687097167
+npm i next-routes
+#1687118530
+npm rund ev
+#1687118533
+npm run dev
+#1687154126
+htop
+#1687154257
+vps
+#1687154260
+btop
+#1687157692
+cd project-blog/blog-haikal/
+#1687157706
+cd project-blog/blog-haikal/
+#1687157718
+npm run dev --turbo
+#1687157718
+npm run dev
+#1687162892
+npm run
+#1687162899
+npm run dev
+#1687165420
+npm run build && npm run start
+#1687165673
+npm i sharp
+#1687165690
+npm run dev
+#1687168774
+npm run build && npm run start
+#1687168867
+npm run dev
+#1687168961
+npm -g install next
+#1687168992
+next build
+#1687169054
+rm -rf .next/ node_modules/
+#1687169069
+npm i && npm run build && npm run start
+#1687169182
+npm run build && npm run start
+#1687169559
+npm i && npm run build && npm run start
+#1687169814
+cd
+#1687169833
+npm run dev
+#1687169843
+cd project-blog/blog-haikal/
+#1687169853
+npm run build && npm run start
+#1687170004
+npm run dev
+#1687170055
+npm run build && npm run start
+#1687170428
+clera
+#1687170495
+npm run dev
+#1687171415
+ler
+#1687171416
+clera
+#1687187213
+cd project-blog/blog-haikal/
+#1687187214
+clera
+#1687187226
+npm run build && npm run start
+#1687187506
+npm run dev
+#1687203361
+npm run clean && npm run dev
+#1687285774
+npm run dev
+#1687285950
+/usr/bin/git -C "/home/haikal/project-blog/blog-haikal" -c "core.editor=code --wait --reuse-window" revert --no-edit 3322371c9fe4960604f468130052e6c0e899d8d6
+#1687285977
+/usr/bin/git -C "/home/haikal/project-blog/blog-haikal" -c "core.editor=code --wait --reuse-window" revert --edit 3322371c9fe4960604f468130052e6c0e899d8d6
+#1687286066
+/usr/bin/git -C "/home/haikal/project-blog/blog-haikal" -c "core.editor=code --wait --reuse-window" revert --no-edit 3322371c9fe4960604f468130052e6c0e899d8d6
+#1687286106
+/usr/bin/git -C "/home/haikal/project-blog/blog-haikal" -c "core.editor=code --wait --reuse-window" revert --no-edit 7120bbdfb10a9485ab553f5f494681b55e6e0a21
+#1687286637
+/usr/bin/git -C "/home/haikal/project-blog/blog-haikal" -c "core.editor=code --wait --reuse-window" revert --no-edit 3322371c9fe4960604f468130052e6c0e899d8d6
+#1687286398
+npm run build && npm run start
+#1687286715
+lear
+#1687286983
+/usr/bin/git -C "/home/haikal/project-blog/blog-haikal" -c "core.editor=code --wait --reuse-window" revert --no-edit 7120bbdfb10a9485ab553f5f494681b55e6e0a21
+#1687286717
+npm run dev
+#1687287039
+cd ..
+#1687287041
+cd 
+#1687287045
+cd Downloads/
+#1687287051
+unzip blog-typescript-main.zip 
+#1687287058
+cd blog-typescript-main/
+#1687287061
+npm run dev
+#1687287076
+npm run i
+#1687287080
+npm i
+#1687287103
+npm run dev
+#1687287154
+npm run build && npm runs tart
+#1687287159
+npm run build && npm run start
+#1687288203
+/usr/bin/git -C "/home/haikal/p/project-blog/blog-haikal" -c "core.editor=code --wait --reuse-window" revert --edit 7120bbdfb10a9485ab553f5f494681b55e6e0a21
+#1687288276
+/usr/bin/git -C "/home/haikal/p/project-blog/blog-haikal" -c "core.editor=code --wait --reuse-window" reset 7120bbdfb10a9485ab553f5f494681b55e6e0a21^
+#1687288059
+npm run dev
+#1687288337
+npm run clean
+#1687288955
+/usr/bin/git -C "/home/haikal/p/project-blog/blog-haikal" -c "core.editor=code --wait --reuse-window" rebase 7120bbdfb10a9485ab553f5f494681b55e6e0a21
+#1687288342
+npm run dev
+#1687330283
+cd Downloads/blog-typescript-main/
+#1687330311
+cp -rf app ~/
+#1687330386
+cp -rf app ~/p/project-blog/blog-haikal/
+#1687330409
+cp -rf components/ ~/p/project-blog/blog-haikal/ -y
+#1687330412
+cp -rf components/ ~/p/project-blog/blog-haikal/
+#1687330715
+/usr/bin/git -C "/home/haikal/p/project-blog/blog-haikal" -c "core.editor=code --wait --reuse-window" revert --no-edit 7120bbdfb10a9485ab553f5f494681b55e6e0a21
+#1687330467
+npm run dev
+#1687330886
+clar
+#1687330904
+npm run clean && npm i && npm run build && npm run start
+#1687331063
+npm run dev
+#1687331128
+cd p/project-blog/
+#1687331133
+cd blog-haikal/
+#1687331136
+npm run dev
+#1687331241
+cd ..
+#1687331258
+chmod -R 777 blog-haikal/
+#1687331265
+sudo chmod -R 777 blog-haikal/
+#1687331271
+3clear
+#1687331274
+npm run dev
+#1687331303
+npm run celarn
+#1687331307
+npm run clean
+#1687331316
+cd pro
+#1687331319
+cd blog-haikal/
+#1687331323
+npm run dev
+#1687331396
+npm run build && npm run start
+#1687331513
+npm run dev
+#1687334402
+/usr/bin/git -C "/home/haikal/p/project-blog/blog-haikal" -c "core.editor=code --wait --reuse-window" revert --no-edit 46b2d140d427bc5793cf111a606d4363abf59d3e
+#1687334643
+cd ..
+#1687334658
+cd ..
+#1687334663
+cd astro/
+#1687334667
+rm 1
+#1687334671
+rm -r 1
+#1687334689
+npm i -G yarn
+#1687334693
+yarn
+#1687334708
+[200~npm install --global yarn
+#1687334708
+~
+#1687334711
+npm install --global yarn
+#1687334715
+yarn
+#1687334726
+yarn create astro
+#1687334831
+cd 1
+#1687334857
+npm run de
+#1687334860
+yarn dev
+#1687334925
+cd
+#1687334964
+cd p/astro/1
+#1687334966
+npm run dev
+#1687335419
+cd ..
+#1687335425
+cd next/
+#1687335432
+cd project-blog/b
+#1687335475
+cd project-blog/
+#1687335479
+cd blog
+#1687335480
+cd blog-
+#1687335487
+cd ..
+#1687335490
+cd blog-haikal/
+#1687336242
+npx shadcn-ui add skeleton
+#1687335496
+yarn dev
+#1687338556
+yarn build && yarn start
+#1687338662
+yarn add sharp
+#1687338849
+cd ..
+#1687338862
+sudo chmod -R 777 blog-haikal/
+#1687338868
+cd blog-haikal/
+#1687338871
+yarn add sharp
+#1687338882
+yarn build && yarn start
+#1687339805
+npm -y create sanity@latest
+#1687339815
+cd ..
+#1687339823
+cd blog-haikal/
+#1687339826
+npm list
+#1687339894
+cd ..
+#1687339902
+npm -y create sanity@latest
+#1687340088
+cd ivory-coyote/
+#1687340089
+yarn dev
+#1687340360
+cd ..
+#1687340365
+cd blog-haikal/
+#1687340381
+yarn tldr
+#1687340384
+tldr yarn
+#1687340439
+yarn add @next/mdx
+#1687340535
+npm list
+#1687340540
+yarn list
+#1687341888
+cd ..
+#1687341897
+rm -rf ivory-coyote/
+#1687341906
+cd blog-haikal/
+#1687341936
+npm -y create sanity@latest
+#1687344398
+cd p/f/next/project-blog/
+#1687344403
+cd blog-haikal/
+#1687344406
+npm run dev
+#1687344500
+git remote add origin git@github.com:alka7ex/strapi-railway2.git
+#1687344524
+git@github.com:alka7ex/strapi-railway2.git
+#1687345373
+cd .cd
+#1687345373
+cd
+#1687345376
+cd p
+#1687345379
+cd b
+#1687345402
+git clone https://github.com/alka7ex/strapi-railway2.git
+#1687345408
+cd strapi-railway2/
+#1687345411
+git
+#1687345433
+git checkout development
+#1687345444
+git branch
+#1687345470
+git checkout development
+#1687345486
+git checkout -b development
+#1687345507
+git fetch --all
+#1687345516
+git commit 
+#1687345518
+git commit
+#1687345522
+git push
+#1687345536
+git push --set-upstream origin development
+#1687345803
+cd ..
+#1687345812
+cd f
+#1687345817
+cd next/
+#1687345824
+cd project-blog/ 
+#1687345829
+cd blog-haikal/
+#1687346023
+cd ..
+#1687346049
+cp -r blog-haikal/ ./blog-mdx
+#1687346064
+cd blog-mdx/
+#1687346094
+git init
+#1687346106
+git add README.md
+#1687346110
+git commit -m "first commit"
+#1687346147
+git add
+#1687346150
+git add .
+#1687346154
+git commit -m "first commit"
+#1687346162
+git branch -M main
+#1687346167
+git remote add origin https://github.com/alka7ex/blog-mdx.git
+#1687346178
+git push -u origin main
+#1687346193
+git init
+#1687346195
+git push -u origin main
+#1687346634
+git
+#1687346644
+git repo
+#1687346762
+origin git@github.com:alka7ex/blog-mdx.git (fetch)
+#1687346766
+origin git@github.com:alka7ex/blog-mdx.git
+#1687346773
+git origin git@github.com:alka7ex/blog-mdx.git (fetch)
+#1687346784
+git origin git@github.com:alka7ex/blog-mdx.git
+#1687346789
+git remote -v
+#1687346807
+git remote
+#1687346810
+git remote -v
+#1687346824
+git remote remove origin
+#1687346836
+git remote -v
+#1687346839
+cd ..
+#1687346845
+cd blog-haikal/
+#1687346847
+git remote -v
+#1687346850
+cd ..
+#1687346854
+cd blog-mdx/
+#1687346867
+git commit -m "first commit"
+#1687346874
+git branch -M main
+#1687346879
+git branch -b development
+#1687346892
+git checkout -b development
+#1687346906
+git checkout main
+#1687346908
+git remote add origin git@github.com:alka7ex/blog-mdx.git
+#1687346913
+git push -u origin main
+#1687346961
+ssh-keygen -t rsa -b 4096 -C "farhienzahaikal@gmail.com"
+#1687346974
+ssh-keygen -t rsa -b 4096 -C "your email"
+#1687346984
+cat ~/.ssh/id_rsa.pub
+#1687347032
+git push -u origin main
+#1687347055
+git checkout dev-mdx
+#1687347061
+git checkout -b dev-mdx
+#1687347064
+s
+#1687347111
+git fetch --all
+#1687347131
+git push -u origin dev-mdx
+#1687347185
+git remote -v
+#1687347192
+cd ..
+#1687347198
+cd blog-haikal/
+#1687347200
+git remote -v
+#1687347532
+npm ls
+#1687347561
+yarn tldr
+#1687347563
+tldr yarn
+#1687347575
+npm list
+#1687347579
+tldr npm
+#1687347605
+npm uninstall @sanity/image-url@1.0.2
+#1687347616
+npm remove @sanity/vision@3.12.2
+#1687347655
+npm remove next-sanity
+#1687347672
+npm remove postcss
+#1687347687
+npm remove sanity
+#1687347700
+npm list
+#1687347749
+depcheck
+#1687347763
+npm remove @etchteam/next-pagination
+#1687347777
+npm remove lucide-react
+#1687347787
+depcheck
+#1687347797
+npm remove autoprefixer
+#1687347809
+npm remove sanity
+#1687347820
+depcheck
+#1687347830
+npm remove react-paginate
+#1687347851
+npm list
+#1687347865
+npm remove *@sanity
+#1687347878
+npm remove @sanity/image-url@1.0.2
+#1687347889
+@sanity/vision@3.12.2
+#1687347937
+npm run clean
+#1687347943
+rm -rf node_modules/
+#1687347945
+npm i
+#1687347974
+npm list
+#1687347986
+npm remove @sanity/image-url@1.0.2
+#1687348183
+npm i
+#1687348200
+cd
+#1687348203
+cd ..
+#1687348210
+cd
+#1687348219
+cd p/f/next/
+#1687348223
+cd project-blog/
+#1687348229
+cd blog-mdx/
+#1687348230
+cnear
+#1687348232
+npm i
+#1687348258
+npx depcheck 
+#1687348489
+cd rm rf*
+#1687348493
+cd rm -rf *
+#1687348497
+rm -rf *
+#1687348503
+cd ..
+#1687348515
+rm -rf blog-mdx/
+#1687348520
+git clone https://github.com/alka7ex/blog-typescript.git
+#1687348528
+cd blog-typescript/
+#1687348532
+npm list
+#1687348551
+npm i
+#1687348584
+cler
+#1687348587
+npm list
+#1687348761
+npm run i
+#1687348764
+npm i
+#1687349077
+npm list
+#1687349084
+npm i
+#1687349493
+npm depcheck
+#1687349498
+npx depcheck
+#1687349549
+npm i
+#1687349558
+yarn i
+#1687349562
+yarn install
+#1687349676
+npm i
+#1687349726
+npm run build && npm run start
+#1687349793
+npm i
+#1687349829
+npm run build && npm run start
+#1687349860
+npm i autoprefixer
+#1687349865
+npm run build && npm run start
+#1687350251
+npm run dev
+#1687355800
+npm i @next/bundle-analyzer
+#1687356062
+ANALYZE=true yarn build
+#1687358457
+npm install @next/mdx @mdx-js/loader @mdx-js/react @types/mdx
+#1687358620
+yarn add contentlayer
+#1687358963
+yarn add rehype-autolink-headings rehype-pretty-code rehype-slug remark-gfm
+#1687360273
+yarn add shiki
+#1687360294
+contentlayer build
+#1687360305
+yarn contentlayer build
+#1687366050
+yarn dev
+#1687366238
+yarn add next-contentlayer
+#1687366674
+yarn dev
+#1687367145
+yarn contentlayer build
+#1687367174
+yarn dev
+#1687367310
+yarn contentlayer build
+#1687367335
+yarn dev
+#1687367411
+yarn contentlayer build && yarn build
+#1687367414
+yarn contentlayer build && yarn dev
+#1687374799
+npm run dev
+#1687375329
+git remove -v
+#1687375332
+git remote -v
+#1687375350
+git remote remove origin
+#1687375355
+git remote -v
+#1687375509
+git remote add origin https://github.com/alka7ex/blog-mdx.git
+#1687375532
+git branch 
+#1687375945
+git remote remove main
+#1687377265
+git checkout main
+#1687377270
+git fetch origin
+#1687377277
+git merge origin/main
+#1687377282
+git push origin main
+#1687377508
+git rebase --abort
+#1687377617
+git checkout main
+#1687377622
+git fetch origin
+#1687377627
+git merge origin/main
+#1687377640
+git push origin main
+#1687377694
+yarn contentlayer build && yarn build && yarn start
+#1687377804
+yarn publish
+#1687377825
+npm run publish
+#1687377920
+yarn dev
+#1687377994
+cd ..
+#1687379158
+yarn publish
+#1687379163
+npm run publish
+#1687410947
+npm run dev
+#1687416681
+npm run start
+#1687416698
+yarn publish
+#1687416702
+npm run publish
+#1687438568
+npm run dev
+#1687441857
+yarn contentlayer build
+#1687441871
+npm run dev
+#1687441974
+yarn contentlayer build && npm run dev
+#1687442881
+npm run publish
+#1687443055
+npm run dev
+#1687444731
+npm run publish
+#1687455652
+npm run dev
+#1687460117
+npm run publish
+#1687460458
+npm run dev
+#1687460716
+npm run publish
+#1687460921
+npm run dev
+#1687462038
+npm run publish
+#1687464973
+npm run dev
+#1687465065
+npm run publish
+#1687465194
+npm run dev
+#1687465672
+npm run publish
+#1687470924
+npx create-next-app@latest
+#1687470964
+yarn global add turbo
+#1687470989
+npm run dev
+#1687471111
+turbo build lint
+#1687471129
+turbo build
+#1687471283
+clear 
+#1687471286
+turbo build
+#1687471308
+npx @turbo/codemod update
+#1687471534
+yarn start
+#1687471665
+yarn export
+#1687471670
+npm run export
+#1687471675
+next export
+#1687471720
+turbo build
+#1687471788
+npm run build
+#1687471973
+lear
+#1687471975
+c
+#1687471976
+ckear
+#1687471979
+next export
+#1687472079
+turbo publish
+#1687472128
+turbo dev
+#1687472195
+npm run dev
+#1687472398
+npm run dev --turbo
+#1687472783
+turbo dev
+#1687472844
+turbo build
+#1687472892
+turbo start
+#1687472908
+turbo dev
+#1687472961
+npm run clean
+#1687472986
+yarn install
+#1687473062
+turbo dev
+#1687473099
+ckear
+#1687473102
+turbo dev
+#1687473409
+npm run build
+#1687473449
+turbo publish
+#1687509180
+sudo dnf install ventoy
+#1687511932
+sudo dnf install ./docker-desktop-<version>-<arch>.rpm
+#1687511953
+sudo dnf -y install dnf-plugins-core
+#1687511981
+sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
+#1687511988
+sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+#1687512075
+cd f
+#1687512077
+cd p
+#1687512083
+cd ..
+#1687512086
+cd b
+#1687512097
+mkdir directus-local
+#1687512099
+cd directus-local/
+#1687512103
+version: '3'
+#1687512103
+services:
+#1687512116
+vim docker-compose.yml
+#1687512121
+nvim docker-compose.yml
+#1687512157
+docker compose up -d
+#1687512166
+sudo systemctl start docker
+#1687512197
+sudo dnf -y install dnf-plugins-core
+#1687512206
+sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
+#1687512214
+[200~sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin~
+#1687512215
+sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+#1687512275
+cd p/b
+#1687512279
+cd directus-local/
+#1687512283
+docker compose up -d
+#1687512294
+sudo systemctl start docker
+#1687512298
+docker compose up -d
+#1687512363
+sudo groupadd docker
+#1687512313
+sudo docker compose up -d
+#1687512371
+sudo usermod -aG docker ${USER}
+#1687512376
+su -s ${USER}
+#1687512391
+docker ps
+#1687512399
+docker
+#1687512406
+cd p/f/dir
+#1687512412
+cd p/b/directus-local/
+#1687512415
+docker ps
+#1687512432
+sudo systemctl start docker
+#1687512444
+docker ps
+#1687512448
+sudo docker ps
+#1687512457
+sudo systemctl start docker
+#1687512461
+sudo systemctl enable docker
+#1687512471
+cd p/b/directus-local/
+#1687512478
+docker ps
+#1687512481
+sudo docker ps
+#1687512489
+sudo docker compose up -d
+#1687512492
+sudo docker ps
+#1687473580
+npm run dev
+#1687515362
+turbo build
+#1687516493
+npm start
+#1687517622
+npm run dev
+#1687522836
+npx shadcn-ui@latest add aspect-ratio
+#1687522934
+init
+#1687522964
+npx shadcn-ui@latest add aspect-ratio
+#1687522992
+Configuration is missing. Please run init to create a components.json file.
+#1687523005
+npx shadcn-ui@latest add aspect-ratio
+#1687523098
+npm i
+#1687523118
+npx shadcn-ui@latest add aspect-ratio
+#1687523131
+npm audit fix
+#1687523166
+npx shadcn-ui@latest add aspect-ratio
+#1687523205
+npm run init
+#1687523211
+run init
+#1687523212
+init
+#1687523250
+npx shadcn-ui@latest add badge
+#1687523281
+cd p/f/next/
+#1687523284
+cd project-blog/
+#1687523288
+cd blog-mdx/
+#1687523294
+npx shadcn-ui@latest add badge
+#1687523356
+npx shadcn-ui@latest init
+#1687523439
+sudo chmod 777 *
+#1687523441
+npx shadcn-ui@latest init
+#1687523463
+cd ..
+#1687523479
+sudo chmod -R 777 blog-mdx/
+#1687523483
+cd blog-mdx/
+#1687523487
+npx shadcn-ui@latest init
+#1687523664
+npx shadcn-ui@latest add aspect-ratio
+#1687523810
+npx shadcn-ui@latest init
+#1687523723
+npm run dev
+#1687533384
+turbo build
+#1687533405
+npm remove yarn
+#1687533431
+turbo build
+#1687533488
+turbo publish
+#1687533675
+turbo dev
+#1687533695
+npx @turbo/codemod update
+#1687533710
+npm dev
+#1687533713
+npm run dev
+#1687534878
+turbo publish
+#1687535832
+npm run dev
+#1687537271
+turbo publish
+#1687537282
+turbo build
+#1687537286
+npm run build
+#1687537297
+turbo publish
+#1687732452
+sudo dnf install chezmoi
+#1687732525
+sh -c "$(wget -qO- get.chezmoi.io)"
+#1687732547
+chezmoi
+#1687732566
+cd Downloads/
+#1687732573
+fzf 
+#1687732585
+cd
+#1687732587
+fzg
+#1687732588
+fzf
+#1687732609
+sh -c "$(wget -qO- get.chezmoi.io)"
+#1687732629
+cd /bin/
+#1687732633
+fzf 
+#1687732684
+cd
+#1687732690
+[200~sudo dnf install https://github.com/twpayne/chezmoi/releases/download/v1.7.17/chezmoi-1.7.17-x86_64.rpm~
+#1687732692
+sudo dnf install https://github.com/twpayne/chezmoi/releases/download/v1.7.17/chezmoi-1.7.17-x86_64.rpm
+#1687732713
+chezmoi init
+#1687732728
+chezmoi add ~/.bashrc 
+#1687732808
+chezmoi add ~/.yarnrc .yarn .vscode .var .tldr .themes .ssh
+#1687732818
+chezmoi add ~/.yarnrc ~/.yarn .vscode .var .tldr .themes .ssh
+#1687732845
+chezmoi add ~/.yarnrc ~/.yarn ~/.vscode ~/.var ~/.tld ~/.themes ~/.ssh
+#1687732851
+chezmoi add ~/.yarnrc ~/.yarn ~/.vscode ~/.var ~/.tldr ~/.themes ~/.ssh
+#1687732897
+chezmoi add ~/.*
+#1687732902
+sudo chezmoi add ~/.*
+#1687733085
+chezmoi add ~/.osh-update ~/.oh-my-bash/ ~/.nvm ~/.npm/ ~/.mozilla/ ~/.local ~/.dotnet/ ~/.config/ ~/.cache/ ~/.bash_profile  ~/.bash_logout ~/.bash_history ~/.wget-hsts ~/.sdirs ~/.pki
+#1687733138
+chezmoi add ~/.dotnet/
+#1687733151
+chezmoi add ~/.local/
+#1687733164
+chezmoi add ~/.osh-update ~/.oh-my-bash/ ~/.nvm ~/.npm/ ~/.mozilla/ ~/.local ~/.dotnet/ ~/.config/ ~/.cache/ ~/.bash_profile  ~/.bash_logout ~/.bash_history ~/.wget-hsts ~/.sdirs ~/.pki
+#1687733194
+chezmoin add ~/.yarnrc ~/.yarn
+#1687733198
+chezmoi add ~/.yarnrc ~/.yarn
+#1687733227
+chezmoi add ~/.wget-hsts ~/.vscode ~/.vscode-server/
+#1687733253
+chezmoi add ~/.var ~/.tldr ~/.themes
+#1687733263
+chezmoi add ~/.ssh ~/.sdirs ~/.pki
+#1687733267
+chezmoi add ~/.ssh ~/.sdirs ~
+#1687733270
+chezmoi add ~/.ssh ~/.sdirs 
+#1687733273
+chezmoi add ~/.ssh
+#1687733278
+chezmoi add ~/.sdirs 
+#1687733283
+chezmoi add ~/.pki
+#1687733301
+chezmoi add ~/.osh-update 
+#1687733381
+chezmoi add ~/.oh-my-bash/ ~/.nvm ~/.npm ~/.mozilla/ ~/.local ~/.gnupg/ ~/.gitconfig ~/.giget/ ~/.dotnet/ ~/.config/ ~/.cache/ ~/.bashrc ~/.bashrc.omb-backup-20230613133235 ~/.bash_profile 
+#1687733395
+chezmoi add ~/.oh-my-bash/ ~/.nvm ~/.npm ~/.mozilla/ ~/.local ~/.gitconfig ~/.giget/ ~/.dotnet/ ~/.config/ ~/.cache/ ~/.bashrc ~/.bashrc.omb-backup-20230613133235 ~/.bash_profile 
